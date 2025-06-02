@@ -2,38 +2,79 @@
     --main-color: rgba(0, 128, 0, 0.664);
 }
 
-#heading {
+/**PC**/
+@media (min-width: 1024px) {
+    #heading {
     font-family: 'Courier New', Courier, monospace;
     font-size: 13mm;
     background-color: var(--main-color);
-    width: 400mm;
+    width: 357mm;
+    }
+    .contact {
+        font-size: 5mm;
+        color: greenyellow;
+    }
+    a {
+        color: rgb(0, 255, 0);
+    }
+    body {
+        background: url(https://media.discordapp.net/attachments/1377325388291637339/1378653392875946004/khaki-pattern.jpg?ex=683d6287&is=683c1107&hm=14a87af16135c7bd77bb5176395211a637f3bf9f3ca2fe30f34f6339201dc0d7&=&format=webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .info {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px; 
+        background-color: var(--main-color);
+        width: 10cm;
+        height: 8cm;
+    }
+
+    .container {
+        background-color: var(--main-color);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:2cap ;
+    }
 }
 
-.contact {
-    font-size: 5mm;
-    color: greenyellow;
-}
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1024px) {
+    #heading {
+        background-color: var(--main-color);
+        width: 214mm;
+        font-size: 11mm;
+    }
+    body {
+        background-image: url(https://media.discordapp.net/attachments/1377325388291637339/1378653392875946004/khaki-pattern.jpg?ex=683e0b47&is=683cb9c7&hm=1b179a3d58e444094b1c26820e6a3e44a6ee357381204fb72689b8b66e08e489&=&format=webp);
+    }
+    .info {
+        font-size: 21px;
+        background-color: var(--main-color);
+        width:214mm ;
+        height: 88mm;
+    }
 
-a {
-    color: rgb(0, 255, 0);
-}
+    .contact {
+        font-size: 7mm;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: var(--main-color);
+        width: 278px;
+    }
+    
+    a {
+        color: greenyellow;
+    }
 
-body {
-    background: url(https://media.discordapp.net/attachments/1377325388291637339/1378653392875946004/khaki-pattern.jpg?ex=683d6287&is=683c1107&hm=14a87af16135c7bd77bb5176395211a637f3bf9f3ca2fe30f34f6339201dc0d7&=&format=webp);
-    background-size: cover;
-    background-position: center;
-}
-
-.info {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px; 
-    background-color: var(--main-color);
-    width: 10cm;
-    height: 8cm;
-}
-
-.container {
-  background-color: var(--main-color);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size:2cap ;
+    .container {
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 13px;
+        padding-top: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6.6mm;
+        background-color: var(--main-color);
+        width: 208mm;
+        height: 155mm;
+        
+    }
 }
