@@ -18,7 +18,7 @@
         color: rgb(0, 255, 0);
     }
     body {
-        background: url(https://media.discordapp.net/attachments/1377325388291637339/1378653392875946004/khaki-pattern.jpg?ex=683d6287&is=683c1107&hm=14a87af16135c7bd77bb5176395211a637f3bf9f3ca2fe30f34f6339201dc0d7&=&format=webp);
+        background: url(https://media.istockphoto.com/id/1187501337/es/foto/patr%C3%B3n-khaki.jpg?s=170667a&w=0&k=20&c=LjRAi9eC992vEUpmift5RAU4QjOUIWcDBHLgsDcZ9As=);
         background-size: cover;
         background-position: center;
     }
@@ -38,7 +38,7 @@
 }
 
 /*Tablet*/
-@media (max-width: 840px) {
+@media (min-width: 500px) (max-width: 1024px) {
     #heading {
         background-color: var(--main-color);
         width: 214mm;
